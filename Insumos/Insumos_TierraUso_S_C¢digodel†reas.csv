@@ -1,0 +1,282 @@
+ Código del área, Código M49, Área
+2,'004,Afganistán
+5100,'002,África
+5102,'017,África central
+5104,'018,África meridional
+5105,'011,África occidental
+5101,'014,África oriental
+5103,'015,África septentrional
+3,'008,Albania
+79,'276,Alemania
+5204,'013,América central
+5207,'005,América del Sur
+5203,'021,América septentrional
+5200,'019,Américas
+6,'020,Andorra
+7,'024,Angola
+258,'660,Anguila
+8,'028,Antigua y Barbuda
+151,'530,Antillas Neerlandesas (ex)
+194,'682,Arabia Saudita
+4,'012,Argelia
+9,'032,Argentina
+1,'051,Armenia
+22,'533,Aruba
+187,'654,Ascensión; Santa Elena y Tristán de Acuña
+5300,'142,Asia
+5301,'143,Asia central
+5303,'034,Asia meridional
+5305,'145,Asia occidental
+5302,'030,Asia oriental
+5304,'035,Asia sudoriental
+10,'036,Australia
+5501,'053,Australia y Nueva Zelandia
+11,'040,Austria
+52,'031,Azerbaiyán
+12,'044,Bahamas
+13,'048,Bahrein
+16,'050,Bangladesh
+14,'052,Barbados
+57,'112,Belarús
+255,'056,Bélgica
+15,'058,Bélgica-Luxemburgo
+23,'084,Belice
+53,'204,Benin
+17,'060,Bermudas
+18,'064,Bhután
+19,'068,Bolivia (Estado Plurinacional de)
+278,'535,Bonaire; San Eustaquio y Saba
+80,'070,Bosnia y Herzegovina
+20,'072,Botswana
+21,'076,Brasil
+26,'096,Brunei Darussalam
+27,'100,Bulgaria
+233,'854,Burkina Faso
+29,'108,Burundi
+35,'132,Cabo Verde
+115,'116,Camboya
+32,'120,Camerún
+33,'124,Canadá
+39,'148,Chad
+51,'200,Checoslovaq
+167,'203,Chequia
+40,'152,Chile
+351,'159,China
+41,'156,China; Continental
+96,'344,China; RAE de Hong Kong
+128,'446,China; RAE de Macao
+214,'158,China; Taiwán provincia de
+50,'196,Chipre
+44,'170,Colombia
+45,'174,Comoras
+46,'178,Congo
+48,'188,Costa Rica
+107,'384,Côte d'Ivoire
+98,'191,Croacia
+49,'192,Cuba
+279,'531,Curaçao
+54,'208,Dinamarca
+72,'262,Djibouti
+55,'212,Dominica
+58,'218,Ecuador
+59,'818,Egipto
+5206,'029,El Caribe
+60,'222,El Salvador
+225,'784,Emiratos Árabes Unidos
+178,'232,Eritrea
+199,'703,Eslovaquia
+198,'705,Eslovenia
+203,'724,España
+231,'840,Estados Unidos de América
+63,'233,Estonia
+209,'748,Eswatini
+238,'231,Etiopía
+62,'230,Etiopía RDP
+5400,'150,Europa
+5403,'039,Europa meridional
+5404,'155,Europa occidental
+5401,'151,Europa oriental
+5402,'154,Europa septentrional
+185,'643,Federación de Rusia
+66,'242,Fiji
+171,'608,Filipinas
+67,'246,Finlandia
+68,'250,Francia
+74,'266,Gabón
+75,'270,Gambia
+73,'268,Georgia
+81,'288,Ghana
+82,'292,Gibraltar
+86,'308,Granada
+84,'300,Grecia
+85,'304,Groenlandia
+87,'312,Guadalupe
+88,'316,Guam
+89,'320,Guatemala
+69,'254,Guayana Francesa
+90,'324,Guinea
+61,'226,Guinea Ecuatorial
+175,'624,Guinea-Bissau
+91,'328,Guyana
+93,'332,Haití
+95,'340,Honduras
+97,'348,Hungría
+5817,'902,Import netos alim en Des
+100,'356,India
+101,'360,Indonesia
+102,'364,Irán (República Islámica del)
+103,'368,Iraq
+104,'372,Irlanda
+264,'833,Isla de Man
+161,'574,Isla Norfolk
+99,'352,Islandia
+259,'830,Islas Anglonormandas
+36,'136,Islas Caimán
+47,'184,Islas Cook
+64,'234,Islas Feroe
+65,'238,Islas Malvinas (Falkland Islands)
+163,'580,Islas Marianas del Norte
+127,'584,Islas Marshall
+25,'090,Islas Salomón
+224,'796,Islas Turcas y Caicos
+239,'092,Islas Vírgenes Británicas
+240,'850,Islas Vírgenes de los Estados Unidos
+243,'876,Islas Wallis y Futuna
+105,'376,Israel
+106,'380,Italia
+109,'388,Jamaica
+110,'392,Japón
+112,'400,Jordania
+108,'398,Kazajstán
+114,'404,Kenya
+113,'417,Kirguistán
+83,'296,Kiribati
+118,'414,Kuwait
+122,'426,Lesotho
+119,'428,Letonia
+121,'422,Líbano
+123,'430,Liberia
+124,'434,Libia
+125,'438,Liechtenstein
+126,'440,Lituania
+5801,'199,Los países menos desarrollados
+256,'442,Luxemburgo
+154,'807,Macedonia del Norte
+129,'450,Madagascar
+131,'458,Malasia
+130,'454,Malawi
+132,'462,Maldivas
+133,'466,Malí
+134,'470,Malta
+143,'504,Marruecos
+135,'474,Martinica
+137,'480,Mauricio
+136,'478,Mauritania
+270,'175,Mayotte
+5502,'054,Melanesia
+138,'484,México
+5503,'057,Micronesia
+145,'583,Micronesia (Estados Federados de)
+140,'492,Mónaco
+141,'496,Mongolia
+273,'499,Montenegro
+142,'500,Montserrat
+144,'508,Mozambique
+5000,'001,Mundo
+28,'104,Myanmar
+147,'516,Namibia
+148,'520,Nauru
+149,'524,Nepal
+157,'558,Nicaragua
+158,'562,Níger
+159,'566,Nigeria
+160,'570,Niue
+162,'578,Noruega
+153,'540,Nueva Caledonia
+156,'554,Nueva Zelandia
+5500,'009,Oceanía
+221,'512,Omán
+150,'528,Países Bajos (Reino de los)
+5815,'901,Países de bajos ingresos y con déficit de alim.
+5802,'432,Países sin litoral en vías de desarrollo
+165,'586,Pakistán
+180,'585,Palau
+299,'275,Palestina
+166,'591,Panamá
+168,'598,Papua Nueva Guinea
+169,'600,Paraguay
+5803,'722,Pequeñas islas en vías de Desarrollo
+170,'604,Perú
+172,'612,Pitcairn
+5504,'061,Polinesia
+70,'258,Polinesia Francesa
+173,'616,Polonia
+174,'620,Portugal
+177,'630,Puerto Rico
+179,'634,Qatar
+229,'826,Reino Unido de Gran Bretaña e Irlanda del Norte
+212,'760,República Árabe Siria
+37,'140,República Centroafricana
+117,'410,República de Corea
+146,'498,República de Moldova
+250,'180,República Democrática del Congo
+120,'418,República Democrática Popular Lao
+56,'214,República Dominicana
+116,'408,República Popular Democrática de Corea
+215,'834,República Unida de Tanzanía
+182,'638,Reunión
+183,'642,Rumanía
+184,'646,Rwanda
+205,'732,Sáhara Occidental
+188,'659,Saint Kitts y Nevis
+244,'882,Samoa
+5,'016,Samoa americana
+282,'652,San Bartolomé
+192,'674,San Marino
+281,'663,San Martín (parte francesa)
+190,'666,San Pedro y Miquelón
+191,'670,San Vicente y las Granadinas
+189,'662,Santa Lucía
+94,'336,Santa Sede
+193,'678,Santo Tomé y Príncipe
+195,'686,Senegal
+272,'688,Serbia
+186,'891,Serbia y Montenegro
+196,'690,Seychelles
+197,'694,Sierra Leona
+200,'702,Singapur
+280,'534,Sint Maarten (parte de los Países Bajos)
+201,'706,Somalia
+38,'144,Sri Lanka
+202,'710,Sudáfrica
+276,'729,Sudán
+206,'736,Sudán (ex)
+277,'728,Sudán del Sur
+210,'752,Suecia
+211,'756,Suiza
+207,'740,Suriname
+216,'764,Tailandia
+208,'762,Tayikistán
+164,'582,Territorio de las Islas del Pacífico
+176,'626,Timor-Leste
+217,'768,Togo
+218,'772,Tokelau
+219,'776,Tonga
+220,'780,Trinidad y Tabago
+222,'788,Túnez
+223,'792,Türkiye
+213,'795,Turkmenistán
+227,'798,Tuvalu
+230,'804,Ucrania
+226,'800,Uganda
+5707,'097,Unión Europea (27)
+228,'810,URSS
+234,'858,Uruguay
+235,'860,Uzbekistán
+155,'548,Vanuatu
+236,'862,Venezuela (República Bolivariana de)
+237,'704,Viet Nam
+249,'887,Yemen
+248,'890,Yugoslav RFS
+251,'894,Zambia
+181,'716,Zimbabwe
