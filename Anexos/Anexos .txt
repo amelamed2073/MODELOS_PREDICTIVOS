@@ -1,0 +1,70 @@
+1. Base de Datos
+
+La base de datos utilizada corresponde a la serie histórica de superficie agrícola en Panamá, extraída de FAOSTAT (Food and Agriculture Organization, FAO). Los datos abarcan desde 1961 hasta 2022 y fueron obtenidos en formato CSV, posteriormente integrados al entorno de Python para su procesamiento.
+
+El dataset incluye valores anuales expresados en hectáreas, los cuales representan la superficie total destinada a actividades agrícolas reportadas oficialmente.
+Descripción de los Dataset:
+1. datos_principales (Insumos_TierraUso_S_Todos_los_Datos.csv):
+   - Contiene los valores anuales del uso de la tierra por país, producto (tipo de cobertura), elemento (tipo de medición) y unidad.
+   - Incluye valores desde 1961 hasta 2023 en columnas anuales (Y1961, Y1962, ..., Y2023).
+   - incluye columnas auxiliares por año que indican el tipo de fuente o calidad del dato.
+
+2. cod_areas (Insumos_TierraUso_S_C¢digodel†reas.csv):
+   - Tabla de referencia que asocia el código de área de la FAO con el nombre del país o región.
+   - Permite mapear cada país a su continente o agregado regional.
+
+3. elementos (Insumos_TierraUso_S_Elementos.csv):
+   - Catálogo que describe los tipos de elementos medidos (por ejemplo: superficie, porcentaje, carbono, etc.).
+   - Es útil para interpretar los nombres técnicos en la columna "Elemento".
+
+4. productos (Insumos_TierraUso_S_C¢digodelproductos.csv):
+   - Tabla dela correspondencia entre códigos de productos y su descripción.
+
+5. simbolos (Insumos_TierraUso_S_S°mbolos.csv):
+   - Diccionario de banderas de calidad y fuente de los datos (A = oficial, E = estimado, I = imputado, F = Pronóstico, N = Datos no Disponibles.).
+   - Permite hacer filtrado o evaluación de confiabilidad de los datos en el análisis.
+
+
+2. Descripción de Cada Columna de Datos
+La estructura de la base de datos presenta las siguientes columnas:
+* Year: Año de registro de la superficie agrícola (1961 – 2022).
+* Area: País de referencia, en este caso Panamá.
+* Element: Variable medida, en este caso “Agricultural Land” (superficie agrícola total).
+* Value: Cantidad de hectáreas agrícolas en ese año.
+* Flag: Indicador de calidad del dato (cuando FAO especifica si es estimado, oficial o derivado de cálculo).
+
+3. Análisis Descriptivo
+El análisis descriptivo permitió identificar las siguientes tendencias:
+* La superficie agrícola de Panamá muestra un crecimiento sostenido en las décadas de 1960 a 1980, seguido por un período de estabilización.
+* Desde los años 2000, se observan fluctuaciones moderadas que reflejan cambios en las dinámicas productivas, políticas de uso de suelo y presión por urbanización.
+* Las estadísticas básicas indican:
+o Media: superficie promedio cercana a 2.2 millones de hectáreas.
+o Máximo: alrededor de 2.5 millones de hectáreas.
+o Mínimo: 1.8 millones de hectáreas en los registros más antiguos.
+* El histograma y gráfico de series temporales evidencian una tendencia estacionaria parcial, con comportamientos cíclicos asociados a períodos de política agrícola.
+
+4. Análisis Predictivo
+Para la proyección de tendencias hacia 2030, se aplicaron múltiples enfoques de modelado predictivo:
+* ARIMA (AutoRegressive Integrated Moving Average):
+Ajustado a la serie temporal anual, mostró un buen desempeño para capturar la estructura histórica. Se utilizó criterio AIC/BIC para la selección de parámetros.
+* Holt-Winters (Exponential Smoothing):
+Adecuado para series con componente estacional. Permitió suavizar la tendencia y proyectar escenarios conservadores.
+* Prophet (Facebook):
+Modelo robusto para manejo de estacionalidad y cambios estructurales, utilizado como benchmark moderno.
+* Random Forest Regressor:
+Se aplicó como técnica de aprendizaje automático, capturando patrones no lineales y posibles interacciones ocultas.
+
+Resultados principales:
+* Todos los modelos predicen una tendencia estable a leve crecimiento en la superficie agrícola al 2030.
+* El intervalo de confianza al 95% proyecta un rango de 2.3 – 2.5 millones de hectáreas.
+* Random Forest mostró el menor error cuadrático medio (RMSE), mientras que ARIMA destacó en interpretabilidad.
+5. Script de Código o Archivos
+El análisis completo fue implementado en Python 3.10, utilizando librerías como pandas, matplotlib, statsmodels, fbprophet, y sklearn.
+El código fuente se encuentra organizado en un repositorio de GitHub 
+* /insumos: Contiene la base de datos FAOSTAT.
+* /modelos: Carpeta donde se guardan los modelos entrenados en formato .pkl.
+* /gráficos: Gráficos generados para análisis y presentación.
+* / código fuente en Python.
+
+
+
